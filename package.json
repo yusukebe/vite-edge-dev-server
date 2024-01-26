@@ -1,6 +1,7 @@
 {
-  "name": "vite-12165",
+  "name": "vite-edge-dev-server",
   "type": "module",
+  "private": true,
   "license": "MIT",
   "scripts": {
     "dev": "vite"

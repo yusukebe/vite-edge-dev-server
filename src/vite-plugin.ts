@@ -1,7 +1,7 @@
 import type * as http from 'http'
 import { getRequestListener } from '@hono/node-server'
 import { Plugin as VitePlugin, ViteDevServer, Connect, createViteRuntime } from 'vite'
-import { EdgeRunner } from './runtime'
+import { EdgeRunner } from './runner'
 
 const exclude = [/.*\.ts$/, /.*\.tsx$/, /^\/@.+$/, /^\/favicon\.ico$/, /^\/static\/.+/, /^\/node_modules\/.*/]
 
