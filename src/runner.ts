@@ -3,6 +3,10 @@ import type { ViteModuleRunner, ViteRuntimeModuleContext } from 'vite/runtime'
 import { EdgeVM } from '@edge-runtime/vm'
 import { makeLegalIdentifier } from '@rollup/pluginutils'
 
+/**
+ * Most of code from https://github.com/sapphi-red/vite-envs/tree/use-vite-runtime
+ */
+
 export class EdgeRunner implements ViteModuleRunner {
   private vm!: EdgeVM
 
